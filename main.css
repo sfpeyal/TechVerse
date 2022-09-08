@@ -4,17 +4,18 @@
     color: #FFFFFF;
 }
 
-.banner-items  {
+.banner-items {
     display: flex;
     color: #FFFFFF;
     flex-direction: column;
     align-items: center !important;
 }
 
-.discover h1{    
+.discover h1 {
     color: #1D1D1D;
 }
-.discover p{    
+
+.discover p {
 
     font-weight: 400;
     font-size: 16px;
@@ -24,11 +25,72 @@
 
 }
 
+/* Footer Section */
+footer {
+    margin-top: 130px;
+    height: 444px;
+    background: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div {
+    width: 1320px;
+}
+
+footer h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 26px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #B9B9B9;
+}
+
+.footer-control {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-media {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 26px;
+    width: 200px;
+}
+
+.footer-media a {
+    padding: 10px 10px;
+    background-color: #D3D3D3;
+    border-radius: 50%;
+    color: #474747;
+}
+
 @media screen and (min-width:992px) {
-    .carousel-inner{
+    .carousel-inner {
         height: 100%
     }
-    .carousel-inner img{
+
+    .carousel-inner img {
         height: 700px;
     }
 
